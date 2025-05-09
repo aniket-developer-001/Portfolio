@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style type="text/css" media="all">
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+    <br /><br />
+    <div class="hero">
+      <div class="hero-text">
+        <h2>Hi, <br />I'm <span>Tapan</span><br/><span style="font-size: 28px;margin-top: -5px;color: gray;">Thumbnail Editor & Writter</span></h2>
+        <a href="" class="bt" onclick="sendEmail()">Contact</a>
+        <div class="socials">
+          <a href="#">in</a>
+          <a href="#">Bē</a>
+          <a href="#">@</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="/InShot_20250405_064642523.jpg" alt="Tapan"/>
+      </div>
+    </div>
+  </header></section>
+  <section id="about"><br /><br />
+  <h2 class="ab">About</h2><br />
+  <img src="/InShot_20250405_064642523.jpg" alt="Tapan" class="im" style="box-shadow: 0px 2px 5px rgba(0, 160, 255, 0.68);"/>
+  <div class="ac">
+    <h2>Tapan Rath</h2><br />
+    <p>Hi there! I'm a skilled Thumbnail
+Editing
+& Blogs, Script Writting.
+I consistently Daily
+improve of my
+knowledge for better
+life.</p>
+  </div><br /><br /><br /><br /><br />
+  </section>
+  <section id="skills"><br /><br />
+  <h2 class="ab">Skills</h2><br><br />
+  <h3>Professional Skills</h3><br />
+  <p style="margin: 0px 50% 0px 10%;">Hi there! I'm a skilled Thumbnail
+Editing
+& Blogs, Script Writting with 6 months of Experience.</p><br /><br />
+<span style="margin-left: 11%;"><b>Thumbnail Editing</b></span><span style="margin-left: 16.5%;">94%</span><br />
+<progress min="0" max="100" value="94"></progress><br /><br />
+<span style="margin-left: 11%;"><b>Article Writting</b></span><span style="margin-left: 19%;">97%</span><br />
+<progress min="0" max="100" value="97"></progress><br /><br />
+<span style="margin-left: 11%;"><b>Script Writing</b></span><span style="margin-left: 20%;">95%</span><br />
+<progress min="0" max="100" value="95"></progress>
+<img src="/captcha-typing-jobs.jpg" style="margin: -300px 0px 0px 55%; border: 0.5px solid black; border-radius: 8px;width: 320px;"><br /><br /><br />
+  </section>
+  <section id="work">
+    <h2 class="ab">Work</h2><br /><br />
+    <div id="d1">
+      <div id="d2">
+        <img src="/project-sample/project1.jpg" class="imm">
+        <span class="m">Thumbnail Editing Demo Design</span>
+      </div>
+      <div id="d2">
+        <img src="/project-sample/project2.jpg" class="imm">
+        <span class="m">Thumbnail Editing Demo Design</span>
+      </div>
+    </div>
+    
+    <br /><br />
+  </section>
+  <section id="contact">
+  <h2 class="ab">Contact</h2><br /><br />
+ <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="e1bbfadf-365f-4dac-b4e6-8a8c20fd4aa0">
+<input type="text" name="Name" placeholder="Name" id="txt1" required minlength="3"><br><br>
+<input type="email" name="E-mail" placeholder="Email" id="txt2" required minlength="10"><br><br />
+<textarea name="Message" cols="31" rows="5" placeholder="Describes your write....." id="txt4" required minlength="1"></textarea><br><br>
+<button class="btn" value="submit">Send Message</button></form><br><br>
+<div class="aa">
+  <span>&phone; +919432730471</span><br />
+  <span>&andslope; tapanrath759@gmail.com</span><br />
+  <span>&Barwed; Thakurpukur, joka kol- 700104</span>
+</div>
+</section>
+<script>
+  function sendEmail() {
+  var email = "tapanrath759@gmail.com";
+  var subject = "Let's Order Your Beautiful Thumbnail!";
+  var body = "write your message...";
+  window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+</script>
+</body>
+</html> 
